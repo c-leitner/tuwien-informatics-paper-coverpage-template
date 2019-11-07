@@ -33,4 +33,5 @@ In order to personalize this template, just redefine the corresponding commands 
 
 In a bash terminal, run `latexmk -pvc -pdf -lualatex main.tex` for optimal results.
 
-Forked from [tempse/tuwien-thesis-coverpage-template] https://github.com/tempse/tuwien-thesis-coverpage-template
+## Inspiration
+Forked from [tempse/tuwien-thesis-coverpage-template](https://github.com/tempse/tuwien-thesis-coverpage-template)
