@@ -1,0 +1,79 @@
+% Personalization of your title page:
+\newcommand{\thesistitle}{Titel}
+\newcommand{\thesisdegree}{Ausarbeitung}
+\newcommand{\thesisstudies}{Lehrveranstaltungsname}
+\newcommand{\thesisauthorone}{Max Muster}
+\newcommand{\thesisstudentnumber}{1234567}
+\newcommand{\thesisauthortwo}{John Doe}
+\newcommand{\thesisstudentnumbe}{1234567}
+\newcommand{\thesisauthorthree}{Alice Doe}
+\newcommand{\thesisstudentnumb}{1234567}
+\newcommand{\thesisinstitute}{Computer Engineering}
+\newcommand{\thesisfaculty}{Informatik}
+\newcommand{\thesisuniversity}{Technischen Universit\"{a}t Wien}
+\newcommand{\thesiscollaboration}{}
+\newcommand{\thesissupervisor}{Titel Dr. Vorname Familienname}
+\newcommand{\thesiscosupervisor}{Univ.-Ass. Dr. Vorname Familienname}
+\newcommand{\thesisplace}{Wien}
+\newcommand{\thesisdate}{TT.MM.JJJJ}
+
+\thispagestyle{empty}
+
+\begin{titlepage}
+
+  \begingroup
+	
+
+  %%% Header with logos (the university logo is mandatory,
+  %%% the others are optional)
+   \vspace*{0.5cm}
+  \begin{figure}[h]
+    \centering
+    \begin{subfigure}{.5\textwidth}
+     \hspace{-5.5cm}
+     \includegraphics[height=35pt]{figs/logo.png}
+    \end{subfigure}%
+  \end{figure}
+
+  \vspace*{1.5cm}
+  
+  \begin{center}
+        
+    {\huge\textbf{\thesistitle}}
+
+    \vspace{2.25cm}
+
+    \begin{minipage}[t][0.33\paperheight]{\textwidth}
+      \centering
+      {\Large \textbf{\thesisdegree}}
+      \vfill
+      im Rahmen der VU 
+      \vfill
+      {\Large\textbf{\thesisstudies}}
+      \vfill
+      eingereicht von
+      \vfill
+      {\Large\textbf{\thesisauthorone}}\\[1mm]
+      Matrikelnummer~\thesisstudentnumber
+       \vfill
+      {\Large\textbf{\thesisauthortwo}}\\[1mm]
+      Matrikelnummer~\thesisstudentnumbe
+       \vfill
+      {\Large\textbf{\thesisauthorthree}}\\[1mm]
+      Matrikelnummer~\thesisstudentnumb
+    \end{minipage}
+               
+  \end{center}
+
+  \vfill
+
+  \noindent ausgef\"{u}hrt am Institut f\"{u}r \thesisinstitute\\
+  der Fakult\"{a}t f\"{u}r \thesisfaculty{} der \thesisuniversity\\
+  \ifdefempty{\thesiscollaboration}{}{(in Zusammenarbeit mit \thesiscollaboration{})}
+
+  \vspace{3cm}
+
+  \noindent \thesisplace{}, \thesisdate \hspace{1cm}%
+  \endgroup
+  
+\end{titlepage}
