@@ -1,4 +1,4 @@
-# Tuwien Informatics Paper Coverpage Template
+# TU-Wien Informatics Paper Coverpage Template
 
 This template adaptes the [official cover page](https://informatics.tuwien.ac.at/template-master-thesis-frontispiece-example.pdf) for papers of diploma theses submitted at the faculty for informatics at the TU Wien, Vienna, Austria.
 
